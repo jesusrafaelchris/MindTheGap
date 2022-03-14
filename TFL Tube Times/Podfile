@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TFL Tube Times' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TFL Tube Times
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+
+  target 'TFL Tube TimesTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TFL Tube TimesUITests' do
+    # Pods for testing
+  end
+
+end

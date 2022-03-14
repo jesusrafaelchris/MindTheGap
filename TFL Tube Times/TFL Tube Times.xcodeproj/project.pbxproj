@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE5A6A3F0BEC56A6221ACD6 /* Pods_TFL_Tube_Times.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FB44BD274140289BD04366 /* Pods_TFL_Tube_Times.framework */; };
+		20FD74DEAED34EDA0F5BEA2B /* Pods_TFL_Tube_TimesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7464C34EA82DFC1EB18A27DB /* Pods_TFL_Tube_TimesTests.framework */; };
+		7BB7BE645D75CEDC75EB276F /* Pods_TFL_Tube_Times_TFL_Tube_TimesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA841AFDBA126722F6CE321A /* Pods_TFL_Tube_Times_TFL_Tube_TimesUITests.framework */; };
+		800DBAF425F8E49B000B8D7A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800DBAF325F8E49B000B8D7A /* Login.swift */; };
+		800DBAF925F8E932000B8D7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 800DBAF825F8E932000B8D7A /* GoogleService-Info.plist */; };
+		800DBAFE25F90194000B8D7A /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800DBAFD25F90194000B8D7A /* test.swift */; };
+		800DBB0A25FA9EAE000B8D7A /* SwipableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800DBB0925FA9EAE000B8D7A /* SwipableCollectionViewCell.swift */; };
+		80AEA9B725F27DA80074F902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AEA9B625F27DA80074F902 /* AppDelegate.swift */; };
+		80AEA9B925F27DA80074F902 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AEA9B825F27DA80074F902 /* SceneDelegate.swift */; };
+		80AEA9BB25F27DA80074F902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AEA9BA25F27DA80074F902 /* ViewController.swift */; };
+		80AEA9BE25F27DA80074F902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AEA9BC25F27DA80074F902 /* Main.storyboard */; };
+		80AEA9C025F27DA80074F902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AEA9BF25F27DA80074F902 /* Assets.xcassets */; };
+		80AEA9C325F27DA80074F902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AEA9C125F27DA80074F902 /* LaunchScreen.storyboard */; };
+		80AEA9CE25F27DA90074F902 /* TFL_Tube_TimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AEA9CD25F27DA90074F902 /* TFL_Tube_TimesTests.swift */; };
+		80AEA9D925F27DA90074F902 /* TFL_Tube_TimesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AEA9D825F27DA90074F902 /* TFL_Tube_TimesUITests.swift */; };
+		80AEA9EA25F38EDE0074F902 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AEA9E925F38EDE0074F902 /* HomePage.swift */; };
+		80AEA9F225F39D970074F902 /* StopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AEA9F125F39D970074F902 /* StopCell.swift */; };
+		80AEA9F725F3AAA10074F902 /* DisruptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AEA9F625F3AAA10074F902 /* DisruptionsCell.swift */; };
+		80AEA9FF25F3B1820074F902 /* ExtensionsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AEA9FE25F3B1820074F902 /* ExtensionsEnums.swift */; };
+		80AEAA0425F4F72B0074F902 /* AddLinePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AEAA0325F4F72B0074F902 /* AddLinePage.swift */; };
+		80AEAA0925F62EFB0074F902 /* gridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AEAA0825F62EFB0074F902 /* gridCell.swift */; };
+		80AEAA0E25F64DEA0074F902 /* StationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AEAA0D25F64DEA0074F902 /* StationCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80AEA9CA25F27DA90074F902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80AEA9AB25F27DA80074F902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AEA9B225F27DA80074F902;
+			remoteInfo = "TFL Tube Times";
+		};
+		80AEA9D525F27DA90074F902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80AEA9AB25F27DA80074F902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AEA9B225F27DA80074F902;
+			remoteInfo = "TFL Tube Times";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0804449CF7853D88DD64B2D1 /* Pods-TFL Tube Times.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFL Tube Times.debug.xcconfig"; path = "Target Support Files/Pods-TFL Tube Times/Pods-TFL Tube Times.debug.xcconfig"; sourceTree = "<group>"; };
+		1ABF6FF4734CBD9C365AE615 /* Pods-TFL Tube TimesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFL Tube TimesTests.debug.xcconfig"; path = "Target Support Files/Pods-TFL Tube TimesTests/Pods-TFL Tube TimesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3E5D7A19ADAE2A7A39F087 /* Pods-TFL Tube Times-TFL Tube TimesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFL Tube Times-TFL Tube TimesUITests.release.xcconfig"; path = "Target Support Files/Pods-TFL Tube Times-TFL Tube TimesUITests/Pods-TFL Tube Times-TFL Tube TimesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E4472333122689D01CA1AB9 /* Pods-TFL Tube Times.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFL Tube Times.release.xcconfig"; path = "Target Support Files/Pods-TFL Tube Times/Pods-TFL Tube Times.release.xcconfig"; sourceTree = "<group>"; };
+		7464C34EA82DFC1EB18A27DB /* Pods_TFL_Tube_TimesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFL_Tube_TimesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		800DBAF325F8E49B000B8D7A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		800DBAF825F8E932000B8D7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		800DBAFD25F90194000B8D7A /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		800DBB0925FA9EAE000B8D7A /* SwipableCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipableCollectionViewCell.swift; sourceTree = "<group>"; };
+		80AEA9B325F27DA80074F902 /* TFL Tube Times.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TFL Tube Times.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AEA9B625F27DA80074F902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80AEA9B825F27DA80074F902 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80AEA9BA25F27DA80074F902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80AEA9BD25F27DA80074F902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80AEA9BF25F27DA80074F902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80AEA9C225F27DA80074F902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80AEA9C425F27DA80074F902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AEA9C925F27DA90074F902 /* TFL Tube TimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TFL Tube TimesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AEA9CD25F27DA90074F902 /* TFL_Tube_TimesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFL_Tube_TimesTests.swift; sourceTree = "<group>"; };
+		80AEA9CF25F27DA90074F902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AEA9D425F27DA90074F902 /* TFL Tube TimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TFL Tube TimesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AEA9D825F27DA90074F902 /* TFL_Tube_TimesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFL_Tube_TimesUITests.swift; sourceTree = "<group>"; };
+		80AEA9DA25F27DA90074F902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AEA9E925F38EDE0074F902 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		80AEA9F125F39D970074F902 /* StopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopCell.swift; sourceTree = "<group>"; };
+		80AEA9F625F3AAA10074F902 /* DisruptionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisruptionsCell.swift; sourceTree = "<group>"; };
+		80AEA9FE25F3B1820074F902 /* ExtensionsEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsEnums.swift; sourceTree = "<group>"; };
+		80AEAA0325F4F72B0074F902 /* AddLinePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLinePage.swift; sourceTree = "<group>"; };
+		80AEAA0825F62EFB0074F902 /* gridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gridCell.swift; sourceTree = "<group>"; };
+		80AEAA0D25F64DEA0074F902 /* StationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationCell.swift; sourceTree = "<group>"; };
+		872FC4E379E147EEBA22EAB0 /* Pods-TFL Tube TimesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFL Tube TimesTests.release.xcconfig"; path = "Target Support Files/Pods-TFL Tube TimesTests/Pods-TFL Tube TimesTests.release.xcconfig"; sourceTree = "<group>"; };
+		93FB44BD274140289BD04366 /* Pods_TFL_Tube_Times.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFL_Tube_Times.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA841AFDBA126722F6CE321A /* Pods_TFL_Tube_Times_TFL_Tube_TimesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFL_Tube_Times_TFL_Tube_TimesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A5C5546C53CFE03013512B /* Pods-TFL Tube Times-TFL Tube TimesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFL Tube Times-TFL Tube TimesUITests.debug.xcconfig"; path = "Target Support Files/Pods-TFL Tube Times-TFL Tube TimesUITests/Pods-TFL Tube Times-TFL Tube TimesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80AEA9B025F27DA80074F902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE5A6A3F0BEC56A6221ACD6 /* Pods_TFL_Tube_Times.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AEA9C625F27DA90074F902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FD74DEAED34EDA0F5BEA2B /* Pods_TFL_Tube_TimesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AEA9D125F27DA90074F902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB7BE645D75CEDC75EB276F /* Pods_TFL_Tube_Times_TFL_Tube_TimesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CBAD029769F456C91417A6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0804449CF7853D88DD64B2D1 /* Pods-TFL Tube Times.debug.xcconfig */,
+				4E4472333122689D01CA1AB9 /* Pods-TFL Tube Times.release.xcconfig */,
+				C8A5C5546C53CFE03013512B /* Pods-TFL Tube Times-TFL Tube TimesUITests.debug.xcconfig */,
+				2F3E5D7A19ADAE2A7A39F087 /* Pods-TFL Tube Times-TFL Tube TimesUITests.release.xcconfig */,
+				1ABF6FF4734CBD9C365AE615 /* Pods-TFL Tube TimesTests.debug.xcconfig */,
+				872FC4E379E147EEBA22EAB0 /* Pods-TFL Tube TimesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		453A318554B922A6B7C63292 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93FB44BD274140289BD04366 /* Pods_TFL_Tube_Times.framework */,
+				AA841AFDBA126722F6CE321A /* Pods_TFL_Tube_Times_TFL_Tube_TimesUITests.framework */,
+				7464C34EA82DFC1EB18A27DB /* Pods_TFL_Tube_TimesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80AEA9AA25F27DA80074F902 = {
+			isa = PBXGroup;
+			children = (
+				80AEA9B525F27DA80074F902 /* TFL Tube Times */,
+				80AEA9CC25F27DA90074F902 /* TFL Tube TimesTests */,
+				80AEA9D725F27DA90074F902 /* TFL Tube TimesUITests */,
+				80AEA9B425F27DA80074F902 /* Products */,
+				3CBAD029769F456C91417A6F /* Pods */,
+				453A318554B922A6B7C63292 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80AEA9B425F27DA80074F902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80AEA9B325F27DA80074F902 /* TFL Tube Times.app */,
+				80AEA9C925F27DA90074F902 /* TFL Tube TimesTests.xctest */,
+				80AEA9D425F27DA90074F902 /* TFL Tube TimesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80AEA9B525F27DA80074F902 /* TFL Tube Times */ = {
+			isa = PBXGroup;
+			children = (
+				80AEA9B625F27DA80074F902 /* AppDelegate.swift */,
+				80AEA9B825F27DA80074F902 /* SceneDelegate.swift */,
+				80AEA9FE25F3B1820074F902 /* ExtensionsEnums.swift */,
+				800DBAF325F8E49B000B8D7A /* Login.swift */,
+				80AEA9E925F38EDE0074F902 /* HomePage.swift */,
+				80AEAA0325F4F72B0074F902 /* AddLinePage.swift */,
+				800DBB0925FA9EAE000B8D7A /* SwipableCollectionViewCell.swift */,
+				80AEAA0D25F64DEA0074F902 /* StationCell.swift */,
+				80AEAA0825F62EFB0074F902 /* gridCell.swift */,
+				80AEA9F125F39D970074F902 /* StopCell.swift */,
+				80AEA9F625F3AAA10074F902 /* DisruptionsCell.swift */,
+				800DBAF825F8E932000B8D7A /* GoogleService-Info.plist */,
+				80AEA9BA25F27DA80074F902 /* ViewController.swift */,
+				80AEA9BC25F27DA80074F902 /* Main.storyboard */,
+				800DBAFD25F90194000B8D7A /* test.swift */,
+				80AEA9BF25F27DA80074F902 /* Assets.xcassets */,
+				80AEA9C125F27DA80074F902 /* LaunchScreen.storyboard */,
+				80AEA9C425F27DA80074F902 /* Info.plist */,
+			);
+			path = "TFL Tube Times";
+			sourceTree = "<group>";
+		};
+		80AEA9CC25F27DA90074F902 /* TFL Tube TimesTests */ = {
+			isa = PBXGroup;
+			children = (
+				80AEA9CD25F27DA90074F902 /* TFL_Tube_TimesTests.swift */,
+				80AEA9CF25F27DA90074F902 /* Info.plist */,
+			);
+			path = "TFL Tube TimesTests";
+			sourceTree = "<group>";
+		};
+		80AEA9D725F27DA90074F902 /* TFL Tube TimesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80AEA9D825F27DA90074F902 /* TFL_Tube_TimesUITests.swift */,
+				80AEA9DA25F27DA90074F902 /* Info.plist */,
+			);
+			path = "TFL Tube TimesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80AEA9B225F27DA80074F902 /* TFL Tube Times */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AEA9DD25F27DA90074F902 /* Build configuration list for PBXNativeTarget "TFL Tube Times" */;
+			buildPhases = (
+				EA7D4B479E2A575D3DBCD966 /* [CP] Check Pods Manifest.lock */,
+				80AEA9AF25F27DA80074F902 /* Sources */,
+				80AEA9B025F27DA80074F902 /* Frameworks */,
+				80AEA9B125F27DA80074F902 /* Resources */,
+				20524F361580C33602E1AB4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TFL Tube Times";
+			productName = "TFL Tube Times";
+			productReference = 80AEA9B325F27DA80074F902 /* TFL Tube Times.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80AEA9C825F27DA90074F902 /* TFL Tube TimesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AEA9E025F27DA90074F902 /* Build configuration list for PBXNativeTarget "TFL Tube TimesTests" */;
+			buildPhases = (
+				E526A02D35D0FBDB70A44F86 /* [CP] Check Pods Manifest.lock */,
+				80AEA9C525F27DA90074F902 /* Sources */,
+				80AEA9C625F27DA90074F902 /* Frameworks */,
+				80AEA9C725F27DA90074F902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80AEA9CB25F27DA90074F902 /* PBXTargetDependency */,
+			);
+			name = "TFL Tube TimesTests";
+			productName = "TFL Tube TimesTests";
+			productReference = 80AEA9C925F27DA90074F902 /* TFL Tube TimesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80AEA9D325F27DA90074F902 /* TFL Tube TimesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AEA9E325F27DA90074F902 /* Build configuration list for PBXNativeTarget "TFL Tube TimesUITests" */;
+			buildPhases = (
+				239076EF33616D68C1813807 /* [CP] Check Pods Manifest.lock */,
+				80AEA9D025F27DA90074F902 /* Sources */,
+				80AEA9D125F27DA90074F902 /* Frameworks */,
+				80AEA9D225F27DA90074F902 /* Resources */,
+				3C93B7B2E9144774438455A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80AEA9D625F27DA90074F902 /* PBXTargetDependency */,
+			);
+			name = "TFL Tube TimesUITests";
+			productName = "TFL Tube TimesUITests";
+			productReference = 80AEA9D425F27DA90074F902 /* TFL Tube TimesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80AEA9AB25F27DA80074F902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					80AEA9B225F27DA80074F902 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					80AEA9C825F27DA90074F902 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 80AEA9B225F27DA80074F902;
+					};
+					80AEA9D325F27DA90074F902 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 80AEA9B225F27DA80074F902;
+					};
+				};
+			};
+			buildConfigurationList = 80AEA9AE25F27DA80074F902 /* Build configuration list for PBXProject "TFL Tube Times" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80AEA9AA25F27DA80074F902;
+			productRefGroup = 80AEA9B425F27DA80074F902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80AEA9B225F27DA80074F902 /* TFL Tube Times */,
+				80AEA9C825F27DA90074F902 /* TFL Tube TimesTests */,
+				80AEA9D325F27DA90074F902 /* TFL Tube TimesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80AEA9B125F27DA80074F902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AEA9C325F27DA80074F902 /* LaunchScreen.storyboard in Resources */,
+				800DBAF925F8E932000B8D7A /* GoogleService-Info.plist in Resources */,
+				80AEA9C025F27DA80074F902 /* Assets.xcassets in Resources */,
+				80AEA9BE25F27DA80074F902 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AEA9C725F27DA90074F902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AEA9D225F27DA90074F902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20524F361580C33602E1AB4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFL Tube Times/Pods-TFL Tube Times-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFL Tube Times/Pods-TFL Tube Times-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TFL Tube Times/Pods-TFL Tube Times-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		239076EF33616D68C1813807 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFL Tube Times-TFL Tube TimesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C93B7B2E9144774438455A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFL Tube Times-TFL Tube TimesUITests/Pods-TFL Tube Times-TFL Tube TimesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFL Tube Times-TFL Tube TimesUITests/Pods-TFL Tube Times-TFL Tube TimesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TFL Tube Times-TFL Tube TimesUITests/Pods-TFL Tube Times-TFL Tube TimesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E526A02D35D0FBDB70A44F86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFL Tube TimesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7D4B479E2A575D3DBCD966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFL Tube Times-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80AEA9AF25F27DA80074F902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AEAA0E25F64DEA0074F902 /* StationCell.swift in Sources */,
+				800DBAFE25F90194000B8D7A /* test.swift in Sources */,
+				80AEA9FF25F3B1820074F902 /* ExtensionsEnums.swift in Sources */,
+				80AEA9F725F3AAA10074F902 /* DisruptionsCell.swift in Sources */,
+				80AEAA0425F4F72B0074F902 /* AddLinePage.swift in Sources */,
+				80AEA9BB25F27DA80074F902 /* ViewController.swift in Sources */,
+				80AEAA0925F62EFB0074F902 /* gridCell.swift in Sources */,
+				80AEA9B725F27DA80074F902 /* AppDelegate.swift in Sources */,
+				80AEA9B925F27DA80074F902 /* SceneDelegate.swift in Sources */,
+				800DBB0A25FA9EAE000B8D7A /* SwipableCollectionViewCell.swift in Sources */,
+				80AEA9EA25F38EDE0074F902 /* HomePage.swift in Sources */,
+				800DBAF425F8E49B000B8D7A /* Login.swift in Sources */,
+				80AEA9F225F39D970074F902 /* StopCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AEA9C525F27DA90074F902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AEA9CE25F27DA90074F902 /* TFL_Tube_TimesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AEA9D025F27DA90074F902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AEA9D925F27DA90074F902 /* TFL_Tube_TimesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80AEA9CB25F27DA90074F902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AEA9B225F27DA80074F902 /* TFL Tube Times */;
+			targetProxy = 80AEA9CA25F27DA90074F902 /* PBXContainerItemProxy */;
+		};
+		80AEA9D625F27DA90074F902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AEA9B225F27DA80074F902 /* TFL Tube Times */;
+			targetProxy = 80AEA9D525F27DA90074F902 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80AEA9BC25F27DA80074F902 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AEA9BD25F27DA80074F902 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80AEA9C125F27DA80074F902 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AEA9C225F27DA80074F902 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80AEA9DB25F27DA90074F902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80AEA9DC25F27DA90074F902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80AEA9DE25F27DA90074F902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0804449CF7853D88DD64B2D1 /* Pods-TFL Tube Times.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEA5XWCYV3;
+				INFOPLIST_FILE = "TFL Tube Times/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christian.TFL-Tube-Times";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80AEA9DF25F27DA90074F902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E4472333122689D01CA1AB9 /* Pods-TFL Tube Times.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEA5XWCYV3;
+				INFOPLIST_FILE = "TFL Tube Times/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christian.TFL-Tube-Times";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80AEA9E125F27DA90074F902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABF6FF4734CBD9C365AE615 /* Pods-TFL Tube TimesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEA5XWCYV3;
+				INFOPLIST_FILE = "TFL Tube TimesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christian.TFL-Tube-TimesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFL Tube Times.app/TFL Tube Times";
+			};
+			name = Debug;
+		};
+		80AEA9E225F27DA90074F902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872FC4E379E147EEBA22EAB0 /* Pods-TFL Tube TimesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEA5XWCYV3;
+				INFOPLIST_FILE = "TFL Tube TimesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christian.TFL-Tube-TimesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFL Tube Times.app/TFL Tube Times";
+			};
+			name = Release;
+		};
+		80AEA9E425F27DA90074F902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A5C5546C53CFE03013512B /* Pods-TFL Tube Times-TFL Tube TimesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEA5XWCYV3;
+				INFOPLIST_FILE = "TFL Tube TimesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christian.TFL-Tube-TimesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TFL Tube Times";
+			};
+			name = Debug;
+		};
+		80AEA9E525F27DA90074F902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3E5D7A19ADAE2A7A39F087 /* Pods-TFL Tube Times-TFL Tube TimesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UEA5XWCYV3;
+				INFOPLIST_FILE = "TFL Tube TimesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christian.TFL-Tube-TimesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TFL Tube Times";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80AEA9AE25F27DA80074F902 /* Build configuration list for PBXProject "TFL Tube Times" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AEA9DB25F27DA90074F902 /* Debug */,
+				80AEA9DC25F27DA90074F902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AEA9DD25F27DA90074F902 /* Build configuration list for PBXNativeTarget "TFL Tube Times" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AEA9DE25F27DA90074F902 /* Debug */,
+				80AEA9DF25F27DA90074F902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AEA9E025F27DA90074F902 /* Build configuration list for PBXNativeTarget "TFL Tube TimesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AEA9E125F27DA90074F902 /* Debug */,
+				80AEA9E225F27DA90074F902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AEA9E325F27DA90074F902 /* Build configuration list for PBXNativeTarget "TFL Tube TimesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AEA9E425F27DA90074F902 /* Debug */,
+				80AEA9E525F27DA90074F902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80AEA9AB25F27DA80074F902 /* Project object */;
+}

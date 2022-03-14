@@ -1,0 +1,6 @@
+framework module Pods_TFL_Tube_Times_TFL_Tube_TimesUITests {
+  umbrella header "Pods-TFL Tube Times-TFL Tube TimesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
